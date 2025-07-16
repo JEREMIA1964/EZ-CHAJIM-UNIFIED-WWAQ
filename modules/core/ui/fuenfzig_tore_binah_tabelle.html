@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Fünfzig Tore des Binah - נון שערי בינה</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&family=Rubik:wght@300;400;500&display=swap');
+        
+        :root {
+            --primary: #1a365d;
+            --secondary: #2c5282;
+            --accent: #d69e2e;
+            --light: #f7fafc;
+            --dark: #1a202c;
+            --hebrew: 'David Libre', serif;
+            --german: 'Rubik', sans-serif;
+        }
+        
+        body {
+            font-family: var(--german);
+            background: linear-gradient(135deg, #1a202c 0%, #1a365d 50%, #2c5282 100%);
+            min-height: 100vh;
+            color: var(--light);
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: var(--accent);
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hebrew-title {
+            font-family: var(--hebrew);
+            font-size: 3em;
+            text-align: center;
+            direction: rtl;
+            margin-bottom: 20px;
+            color: var(--accent);
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        
+        .intro {
+            background: rgba(214, 158, 46, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        thead {
+            background: rgba(214, 158, 46, 0.2);
+        }
+        
+        th {
+            padding: 20px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1.1em;
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+        }
+        
+        td {
+            padding: 15px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        tr:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transition: background 0.3s ease;
+        }
+        
+        .tor-nummer {
+            font-weight: 700;
+            color: var(--accent);
+            text-align: center;
+        }
+        
+        .tor-name {
+            font-size: 1.05em;
+            font-weight: 500;
+        }
+        
+        .tor-kategorie {
+            opacity: 0.8;
+            font-style: italic;
+        }
+        
+        /* Spezielle Hervorhebungen */
+        tr:nth-child(10n) {
+            background: rgba(214, 158, 46, 0.05);
+        }
+        
+        /* Tor 49 - Besondere Markierung */
+        tr:nth-child(49) {
+            background: rgba(214, 158, 46, 0.15);
+            font-weight: 600;
+        }
+        
+        /* Tor 50 - Höchste Heiligkeit */
+        tr:last-child {
+            background: linear-gradient(135deg, 
+                rgba(214, 158, 46, 0.2) 0%, 
+                rgba(214, 158, 46, 0.3) 100%);
+            font-weight: 700;
+        }
+        
+        tr:last-child td {
+            padding: 20px;
+            font-size: 1.1em;
+            border-bottom: none;
+        }
+        
+        .section-divider {
+            text-align: center;
+            margin: 30px 0;
+            color: var(--accent);
+            font-weight: 600;
+            position: relative;
+        }
+        
+        .section-divider::before,
+        .section-divider::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 30%;
+            height: 1px;
+            background: var(--accent);
+            opacity: 0.5;
+        }
+        
+        .section-divider::before {
+            left: 0;
+        }
+        
+        .section-divider::after {
+            right: 0;
+        }
+        
+        .footer-note {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .qawana {
+            font-size: 1.5em;
+            color: var(--accent);
+            font-weight: 700;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .hebrew-title {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Die Fünfzig Tore des Binah</h1>
+        <div class="hebrew-title">נון שערי בינה</div>
+        <p class="subtitle">Im Namen von EIN SOF - Durch die Gnade des Unendlichen</p>
+        
+        <div class="intro">
+            "Fünfzig Tore wurden in der Welt erschaffen – und nur 49 wurden dem Menschen gegeben."<br>
+            <small>(Talmud, Nedarim 38a; vgl. Sohar I:23a)</small>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 10%; text-align: center;">Tor</th>
+                    <th style="width: 35%;">Name</th>
+                    <th style="width: 35%;">Kategorie</th>
+                    <th style="width: 20%;">Ebene</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tore 1-10: Grundlagen -->
+                <tr>
+                    <td class="tor-nummer">1</td>
+                    <td class="tor-name">Awut HaReschimot</td>
+                    <td class="tor-kategorie">Eindrücke / Reschimot</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">2</td>
+                    <td class="tor-name">Hitlabshut</td>
+                    <td class="tor-kategorie">Licht-Kleidung</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">3</td>
+                    <td class="tor-name">Awiut</td>
+                    <td class="tor-kategorie">Dicke des Willens</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">4</td>
+                    <td class="tor-name">Tzimtzum Alef</td>
+                    <td class="tor-kategorie">Erstes Zimzum</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">5</td>
+                    <td class="tor-name">Massach</td>
+                    <td class="tor-kategorie">Schirmstruktur</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">6</td>
+                    <td class="tor-name">Or Choser</td>
+                    <td class="tor-kategorie">Zurückkehrendes Licht</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">7</td>
+                    <td class="tor-name">Zivug de Hakaa</td>
+                    <td class="tor-kategorie">Lichtschlag</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">8</td>
+                    <td class="tor-name">Hishtalshelut</td>
+                    <td class="tor-kategorie">Kausalfolge</td>
+                    <td>Grundlage</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">9</td>
+                    <td class="tor-name">Arba'a Olamot</td>
+                    <td class="tor-kategorie">Vier Welten</td>
+                    <td>Welten</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">10</td>
+                    <td class="tor-name">Partzufim</td>
+                    <td class="tor-kategorie">Gesichtseinheiten</td>
+                    <td>Strukturen</td>
+                </tr>
+                
+                <!-- Tore 11-20: Sefirot und Strukturen -->
+                <tr>
+                    <td class="tor-nummer">11</td>
+                    <td class="tor-name">Keter</td>
+                    <td class="tor-kategorie">Krone</td>
+                    <td>Sefirot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">12</td>
+                    <td class="tor-name">Chochma</td>
+                    <td class="tor-kategorie">Weisheit</td>
+                    <td>Sefirot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">13</td>
+                    <td class="tor-name">Binah</td>
+                    <td class="tor-kategorie">Verständnis</td>
+                    <td>Sefirot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">14</td>
+                    <td class="tor-name">Tiferet</td>
+                    <td class="tor-kategorie">Harmonie</td>
+                    <td>Sefirot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">15</td>
+                    <td class="tor-name">Malchut</td>
+                    <td class="tor-kategorie">Königtum</td>
+                    <td>Sefirot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">16</td>
+                    <td class="tor-name">Chazeh haParzuf</td>
+                    <td class="tor-kategorie">Brustlinie</td>
+                    <td>Strukturen</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">17</td>
+                    <td class="tor-name">Gar de Binah</td>
+                    <td class="tor-kategorie">Obere Binah</td>
+                    <td>Binah-Ebenen</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">18</td>
+                    <td class="tor-name">Zat de Binah</td>
+                    <td class="tor-kategorie">Untere Binah</td>
+                    <td>Binah-Ebenen</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">19</td>
+                    <td class="tor-name">YESHSUT</td>
+                    <td class="tor-kategorie">Yisrael-Saba veTevuna</td>
+                    <td>Binah-Ebenen</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">20</td>
+                    <td class="tor-name">Nukwa de ZA</td>
+                    <td class="tor-kategorie">Gefäß von Malchut</td>
+                    <td>Parzufim</td>
+                </tr>
+                
+                <!-- Tore 21-30: Zustände und Entwicklung -->
+                <tr>
+                    <td class="tor-nummer">21</td>
+                    <td class="tor-name">Se'ir Anpin</td>
+                    <td class="tor-kategorie">Kleines Antlitz</td>
+                    <td>Parzufim</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">22</td>
+                    <td class="tor-name">Katnut</td>
+                    <td class="tor-kategorie">Kleinheit</td>
+                    <td>Zustände</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">23</td>
+                    <td class="tor-name">Gadlut</td>
+                    <td class="tor-kategorie">Größe</td>
+                    <td>Zustände</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">24</td>
+                    <td class="tor-name">Achor beAchor</td>
+                    <td class="tor-kategorie">Rückseite zu Rückseite</td>
+                    <td>Beziehungen</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">25</td>
+                    <td class="tor-name">Panim bePanim</td>
+                    <td class="tor-kategorie">Angesicht zu Angesicht</td>
+                    <td>Beziehungen</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">26</td>
+                    <td class="tor-name">Ibur</td>
+                    <td class="tor-kategorie">Empfängnis</td>
+                    <td>Entwicklung</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">27</td>
+                    <td class="tor-name">Yenika</td>
+                    <td class="tor-kategorie">Stillen</td>
+                    <td>Entwicklung</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">28</td>
+                    <td class="tor-name">Mochin</td>
+                    <td class="tor-kategorie">Verstand</td>
+                    <td>Entwicklung</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">29</td>
+                    <td class="tor-name">Rosh-Toch-Sof</td>
+                    <td class="tor-kategorie">Kopf, Inneres, Ende</td>
+                    <td>Struktur</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">30</td>
+                    <td class="tor-name">Zivug Panim</td>
+                    <td class="tor-kategorie">Vereinigung in Angesicht</td>
+                    <td>Vereinigung</td>
+                </tr>
+                
+                <!-- Tore 31-40: Höhere Prozesse -->
+                <tr>
+                    <td class="tor-nummer">31</td>
+                    <td class="tor-name">Ohr Elyon</td>
+                    <td class="tor-kategorie">Höheres Licht</td>
+                    <td>Lichter</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">32</td>
+                    <td class="tor-name">Masach de Peh</td>
+                    <td class="tor-kategorie">Mund-Schirm</td>
+                    <td>Schirme</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">33</td>
+                    <td class="tor-name">Tzimtzum Bet</td>
+                    <td class="tor-kategorie">Zweiter Zimzum</td>
+                    <td>Zimzumim</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">34</td>
+                    <td class="tor-name">Nekudot de SAG</td>
+                    <td class="tor-kategorie">Punkte des Parzuf</td>
+                    <td>Nekudot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">35</td>
+                    <td class="tor-name">Schewirat HaKelim</td>
+                    <td class="tor-kategorie">Bersten der Gefäße</td>
+                    <td>Bersten</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">36</td>
+                    <td class="tor-name">Olam HaNekudim</td>
+                    <td class="tor-kategorie">Welt der Punkte</td>
+                    <td>Welten</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">37</td>
+                    <td class="tor-name">Olam HaTiqqun</td>
+                    <td class="tor-kategorie">Welt der Korrektur</td>
+                    <td>Welten</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">38</td>
+                    <td class="tor-name">Eser Sefirot</td>
+                    <td class="tor-kategorie">Zehn Sefirot</td>
+                    <td>Vollständigkeit</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">39</td>
+                    <td class="tor-name">Kelalim de Binah</td>
+                    <td class="tor-kategorie">Prinzipien Binah</td>
+                    <td>Binah-Gesetze</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">40</td>
+                    <td class="tor-name">Ohr Makif</td>
+                    <td class="tor-kategorie">Umgebendes Licht</td>
+                    <td>Lichter</td>
+                </tr>
+                
+                <!-- Tore 41-49: Vollendung -->
+                <tr>
+                    <td class="tor-nummer">41</td>
+                    <td class="tor-name">Ohr Pnimi</td>
+                    <td class="tor-kategorie">Inneres Licht</td>
+                    <td>Lichter</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">42</td>
+                    <td class="tor-name">Malchut de Malchut</td>
+                    <td class="tor-kategorie">Letzte Malchut</td>
+                    <td>Endpunkt</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">43</td>
+                    <td class="tor-name">Kelipah Noga</td>
+                    <td class="tor-kategorie">Durchsichtige Schale</td>
+                    <td>Qlipot</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">44</td>
+                    <td class="tor-name">Reschimo</td>
+                    <td class="tor-kategorie">Eindruck</td>
+                    <td>Spuren</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">45</td>
+                    <td class="tor-name">Zivug de Eynaim</td>
+                    <td class="tor-kategorie">Augen-Schlag</td>
+                    <td>Höhere Zivugim</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">46</td>
+                    <td class="tor-name">Tikunei HaZohar</td>
+                    <td class="tor-kategorie">Korrekturen des Zohar</td>
+                    <td>Tiqqun</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">47</td>
+                    <td class="tor-name">Pardes – PRDS</td>
+                    <td class="tor-kategorie">Vierfacher Sinn</td>
+                    <td>Verständnis</td>
+                </tr>
+                <tr>
+                    <td class="tor-nummer">48</td>
+                    <td class="tor-name">Dwekut</td>
+                    <td class="tor-kategorie">Anhaftung</td>
+                    <td>Vereinigung</td>
+                </tr>
+                <tr style="background: rgba(214, 158, 46, 0.15);">
+                    <td class="tor-nummer">49</td>
+                    <td class="tor-name"><strong>Kli shalem leQabbalat Or Ein Sof</strong></td>
+                    <td class="tor-kategorie"><strong>Vollständiges Gefäß</strong></td>
+                    <td><strong>Vollendung</strong></td>
+                </tr>
+                
+                <!-- Tor 50 - Das Verborgene -->
+                <tr>
+                    <td class="tor-nummer" style="color: #fff; text-shadow: 0 0 10px var(--accent);">50</td>
+                    <td class="tor-name" style="color: #fff;"><strong>Sha'ar HaNun</strong></td>
+                    <td class="tor-kategorie" style="color: #fff;"><strong>Nicht offenbar – durch HaSchem allein</strong></td>
+                    <td style="color: #fff;"><strong>EIN SOF</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="footer-note">
+            <p><strong>Sha'ar HaNun - Das 50. Tor:</strong></p>
+            <p>Wird nicht durch eigene Anstrengung erreicht.<br>
+            Es ist das Erbarmen von EIN SOF, das den Eintritt gewährt.<br>
+            Der ARI lehrte: "Mosche Rabbenu erreichte das 49. – und wartete auf das 50."</p>
+        </div>
+        
+        <div class="qawana">
+            Ki Ilu Azilut! - Qawana! = Q!
+        </div>
+        
+        <p class="subtitle">
+            Jeder, der Q! – Qawana – sagt, errichtet ein eigenes Zelt,<br>
+            ein Mikdash Me'at, in dem EIN SOF sich offenbart<br>
+            durch die Tore von Binah, bis das 50. Tor sich selbst offenbart.
+        </p>
+    </div>
+</body>
+</html>

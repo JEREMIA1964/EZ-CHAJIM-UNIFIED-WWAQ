@@ -1,0 +1,5 @@
+PyYAML>=6.0
+# Optional: Für Web-API
+# flask>=2.0
+# Optional: Für erweiterte Analyse
+# nltk>=3.6

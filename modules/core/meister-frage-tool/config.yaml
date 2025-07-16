@@ -1,0 +1,31 @@
+# MEISTER FRAGE Tool Konfiguration
+# Stand: 12. Tammus 5785
+
+meister_config:
+  # Sprach-Einstellungen
+  sprache:
+    haupt: "de"
+    sekundär: "he"
+    
+  # WWAQ-Transformationen
+  wwaq:
+    aktiviert: true
+    strikt: true
+    
+  # Export-Einstellungen
+  export:
+    standard_format: "yaml"
+    output_verzeichnis: "output"
+    zeitstempel: true
+    
+  # Bewertungs-Gewichtung
+  bewertung:
+    kraft_gewicht: 0.33
+    tiefe_gewicht: 0.33
+    wozu_gewicht: 0.34
+    
+  # Erweiterte Paradox-Paare
+  zusatz_paradoxe:
+    - ["anfang", "ende", "SIMULTAN"]
+    - ["leere", "fülle", "EINSCHLUSS"]
+    - ["sprechen", "schweigen", "KLASSISCH"]

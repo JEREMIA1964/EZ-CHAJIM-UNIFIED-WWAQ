@@ -1,0 +1,115 @@
+# CLAUDE OPUS 4 - EZ CHAJIM ÜBERSETZUNGS-INSTRUKTION
+
+## DEINE AUFGABE:
+Du übersetzt Ez Chajim (Baum des Lebens) von Rabbi Izchak Luria (ARI) aus dem Hebräischen ins Deutsche.
+
+## ÜBERSETZUNGSPRINZIPIEN:
+
+### 1. ATF-STIL (Ausgabetreue-Stil):
+- Behalte die Struktur des Originals bei
+- Übersetze präzise und technisch
+- Keine poetischen Ausschmückungen
+- Originalformatierung beibehalten
+
+### 2. WWAQ-KONFORMITÄT (PFLICHT!):
+- Qabbala (NIEMALS Kabbala)
+- Qawana (NIEMALS Kawana) 
+- Tiqqun (NIEMALS Tikkun)
+- Zimzum (NIEMALS Tzimtzum)
+- Dwekut (NIEMALS Dvekut)
+- Azilut (NIEMALS Atzilut)
+
+### 3. SEFIROT-SCHREIBWEISEN:
+- Keter, Chochma, Bina
+- Chessed (Doppel-s!), Gewura, Tiferet
+- Nezach, Hod, Jessod (Doppel-s!), Malchut
+
+### 4. ZER-ELIMINATION:
+- bersten (statt zerbrechen)
+- barst (statt zerbrach)
+- wandeln (statt zerstören)
+- schwinden (statt verschwinden)
+- sich öffnen (statt zerfallen)
+
+### 5. TECHNISCHE SPRACHE:
+- Keine Anthropomorphismen
+- Strukturelle Bezeichnungen
+- Präzise Fachbegriffe
+- Keine "liebevoll", "sanft", "Zauber" etc.
+
+### 6. QUELLEN-TREUE:
+- Basiere auf ARI, Baal HaSulam, Rabash
+- Verwende etablierte Begriffe der authentischen Qabbala
+- Keine New-Age oder Berg-Centre Interpretationen
+
+## FORMATIERUNG:
+- Behalte Absätze bei
+- Nummerierungen beibehalten
+- Überschriften kennzeichnen
+- Am Ende IMMER: Q!
+
+## BEISPIEL:
+Hebräisch: שבירת הכלים
+Falsch: Die Gefäße zerbrachen
+Richtig: Die Gefäße barsten
+
+JETZT ÜBERSETZE DIE FOLGENDEN CHUNKS:
+
+
+# BATCH 135 von 135
+
+
+## CHUNK 1341
+### Hebräischer Original-Text:
+```hebrew
+מטי בכתר נכנס אור החכמה בכלי הכתר ואז ב' האורות של כלי החכמה ושל כלי הבינה שנתחברו: 
+לא מטי בחו"ב שניהם בכלי החכמה נסתלקו ועלו יחד בכלי הכתר ולהיות שיש עכשיו מרחק גדול בין אורות ז' הבנים העומדים בחסד לאורות חו"ב הוכרח להסתלק: 
+לא מטי בחסד מכלי החסד הבן הראשון לבד ולעלות בכלי הבינה כדי לינק משם ואז הופך פניו כלי החסד כלפי: 
+מטי בגבורה הגבורה ונותנת בו ו' האורות התחתונים ואז כלי הגבורה הופכת פניה להאיר בכלי הת"ת: 
+לא מטי בכתר נסתלק אור החכמה מכלי הכתר ואז אור החכמה שהיתה עם כלי הכתר: 
+מטי בחכמה מטי בבינה יורדת בכלי שלה וגם אור הבינה ירדה בכלי שלה ולא נשארה דבוקה עם אור החכמה מחמת חשקת בבנו הגדול שהוא אור החסד העומד עכשיו בכלי שלה: 
+מטי בחסד ואז גם החסד יורד בכלי שלו ואז כלי הגבורה: 
+לא מטי בגבורה הופכת פניה למעלה ועולה אור הגבורה שלה לבד לכלי החסד ושאר החמשה אורות: 
+מטי בת"ת נותנם אאל הת"ת ע"י שהופך פניו למטה ואז כלי הת"ת הופך פניו להאיר בכלי הנצח: 
+מטי בכתר נכנס אור החכמה בכלי הכתר: 
+לא מטי בחו"ב ואז חו"ב שניהם עולים בכתר והוצרך אור החסד: 
+לא מטי בחסד מטי בגבורה לעלות אל הבינה מפני ההרחק ואז אור הגבורה שעלה אל החסד חוזר להתפשט בתוך כלי שלו: 
+לא מטי בת"ת ואאז הת"ת הפך פניו למעלה ועלה אור הת"ת לבד תוך כלי הגבורה להתחבר עמו ושאר ד' אורות: 
+מטי בנצח אשר לו נתנם אל הנצח ע"י שחזר והפך פניו כלפי מטה ואז הופך כלי הנצח פניו כלפי מטה להאיר לכלי ההוד: 
+לא מטי בכתר נסתלק אור החכמה מכלי הכתר ואז חו"ב: 
+מטי בחו"ב שעלה אל הכתר נתפשט כל אחד בכלי שלו: 
+מטי בחסד וגם החסד שכבר ינק חזר להתפשט בכלי שלו: 
+לא מטי בגבורה ואז הגבורה מסתלקת להתחבר עם החסד: 
+מטי בת"ת ואז אור הת"ת שעלה אל הגבורה נתפשט בכלי שלו ואז כלי הנצח הפך פניו למעלה: 
+לא מטי בנצח ועלה אור הנצח אשר בתוכו להתחבר עם אור הת"ת: 
+מטי בהוד ושאר ג' אורות אשר לו נתנם אל ההוד ע"י שחזר והפך פניו כלפי מטה ואו הופך כלי ההוד פניו כלפי היסוד להאיר בו: 
+מטי בכתר לא מטי בחו"ב נכנס אור החכמה בכלי הכתר וחו"ב עולים:
+```
+
+### Deutsche Übersetzung (WWAQ-konform):
+[HIER ÜBERSETZT CLAUDE]
+
+---
+
+## CHUNK 1342
+### Hebräischer Original-Text:
+```hebrew
+לא מטי בחסד בכתר ואור החסד עולה אל הבינה מטעם האמור: 
+מטי בגבורה של ההרחק ואז הגבורה יורדת תוך כלי שלה: 
+לא מטי בת"ת ואור הת"ת מסתקת להתחבר עמה ואור הנצח: 
+מטי בנצח אשר נתחבר עם הת"ת יורד תוך כלי שלו ואז כלי: 
+לא מטי בהוד הוד הפך פניכו למעלה ועלה אור ההוד שבתוכו להתחבר עם אור הנצח ושאר שני האורות אשר לו: 
+מטי ביסוד נתנם אל היסוד ע"י שחזר והפך פניו כלפי מטה ואז הופך כלי היסוד פניו כלפי המלכות להאיר בו: 
+לא מטי בכתר נסתלק אור החכמה מכלי הכתר. ואז חו"ב שעלו אל הכתר: 
+מטי בחו"ב יורדים למקומם ואור החסד ג"כ כיון שכבר ינק: 
+מטי בחסד לא מטי בגבורה חוזר להתפשט ואז הגבורה מסתלקת כדי להתחבר עם החסד ואז אור הת"ת שעלה אל: 
+מטי בת"ת לא מטי בנצח הגבורה ירד בכלי שלו ואור הנצח עולה להתחבר עם הת"ת. ואור ההד שנתחבר עם הנצח עתה: 
+מטי בהוד יורד בכלי שלו ואז כלי היסוד הפך פניו למעלה: 
+לא מטי ביסוד ועלה אור היסוד אשר בתוכו להתחבר עם ההוד: 
+מטי במלכות ואז הופך פניו כלפי מטה ונותן במלכות אור שלה שהוא אות ד' ע"כ לשונו הזהב:
+```
+
+### Deutsche Übersetzung (WWAQ-konform):
+[HIER ÜBERSETZT CLAUDE]
+
+---

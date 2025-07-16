@@ -1,0 +1,68 @@
+meister_frage_analyse:
+  zeitstempel: '2025-07-08T13:45:46.802552'
+  text: '6. Aus Rabash, Artikel 37 (1991) Bevor der Mensch die Reinigung der Gefäße
+    erlangt hat, dass sie um zu geben willen sind, ist seine Arbeit unter Zwang, was
+    "Gesetz" genannt wird. Wenn der Körper kommt und fragt: "Was ist diese Arbeit
+    für euch?", sagt man ihm: "Du fragst gemäß dem Verstand des Willens zu empfangen.
+    Darauf habe ich keine Antwort, und du hast Recht. Ich will nicht innerhalb des
+    Verstandes antworten, damit auch der Wille zu empfangen es versteht. Dann würde
+    ich für den Willen zu empfangen arbeiten, denn sonst würde der Wille zu empfangen
+    der Arbeit nicht zustimmen." Daher sagt der Mensch: "Du hast Recht mit deiner
+    Frage, was ich davon habe - also was der Wille zu empfangen von dieser Arbeit
+    hat. Ich sage dir: Ich will nicht für dich arbeiten. Warum? Weil ich an die Weisheit
+    der Weisen glaube, dass man zum Nutzen des Ewigen über dem Verstand arbeiten muss,
+    auch wenn der Körper es nicht versteht. Ich nehme diese Arbeit an als ''Ochse
+    zum Joch und Esel zur Last''."'
+  paradoxe:
+  - elemente: was ≡ diese
+    typ: Identitäts-Paradoxe
+    stärke: 0.7999999999999999
+    kontext: '" genannt wird. Wenn der Körper kommt und fragt: "Was ist diese Arbeit
+      für euch?", sagt man ihm: "Du fragst gemäß'
+  - elemente: will ≠ innerhalb
+    typ: Klassische Gegensätze
+    stärke: 0.5
+    kontext: uf habe ich keine Antwort, und du hast Recht. Ich will nicht innerhalb
+      des Verstandes antworten, damit auch der Wille zu
+  - elemente: arbeit ≠ zustimmen
+    typ: Klassische Gegensätze
+    stärke: 0.5
+    kontext: 'iten, denn sonst würde der Wille zu empfangen der Arbeit nicht zustimmen."
+      Daher sagt der Mensch: "Du hast Recht mit deine'
+  - elemente: will ≠ für
+    typ: Klassische Gegensätze
+    stärke: 0.6
+    kontext: 'mpfangen von dieser Arbeit hat. Ich sage dir: Ich will nicht für dich
+      arbeiten. Warum? Weil ich an die Weisheit de'
+  - elemente: es ≠ versteht
+    typ: Klassische Gegensätze
+    stärke: 0.5
+    kontext: ' dem Verstand arbeiten muss, auch wenn der Körper es nicht versteht.
+      Ich nehme diese Arbeit an als ''Ochse zum Joch un'
+  beste_frage:
+    frage: WOZU braucht Was das Diese?
+    typ: WOZU braucht X das Y?
+    scores:
+      kraft: 0.8999999999999999
+      tiefe: 0.74
+      wozu: 0.9
+  top_5_fragen:
+  - frage: WOZU braucht Was das Diese?
+    typ: WOZU braucht X das Y?
+    gesamt_score: 0.8466666666666667
+  - frage: WOZU braucht Will das Für?
+    typ: WOZU braucht X das Y?
+    gesamt_score: 0.8266666666666667
+  - frage: WOZU braucht Es das Versteht?
+    typ: WOZU braucht X das Y?
+    gesamt_score: 0.8166666666666668
+  - frage: IST Was wirklich Diese?
+    typ: IST X wirklich Y?
+    gesamt_score: 0.7999999999999999
+  - frage: Was fragt die Frage 'Was & Diese' selbst?
+    typ: Was fragt die Frage selbst?
+    gesamt_score: 0.7333333333333334
+  statistik:
+    paradoxe_gefunden: 5
+    fragen_generiert: 12
+    durchschnitt_score: 0.726111111111111
