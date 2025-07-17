@@ -21,24 +21,24 @@ class EinSofCore:
     Keine Module hier - nur die ewigen Wahrheiten
     """
     ETERNAL_PRINCIPLES = {
-        "kawana": "Q! - Die Absicht ist alles",
-        "tikun": "Jeder Mangel ist eine Tür zur Korrektur",
+        "qawana": "Q! - Die Absicht ist alles",
+        "tiqqun": "Jeder Mangel ist eine Tür zur Korrektur",
         "or_ein_sof": "Das Licht will geben",
-        "ratzon_lekabel": "Das Geschöpf will empfangen"
+        "ratzon_leqabel": "Das Geschöpf will empfangen"
     }
     
     @staticmethod
     def validate_all_actions(action: str) -> bool:
         """Alles muss mit den ewigen Prinzipien übereinstimmen"""
-        return "kawana" in action.lower() or "Q!" in action
+        return "qawana" in action.lower() or "Q!" in action
 
 
 # ============================================================================
-# EBENE 2: ADAM KADMON - Erste Strukturen
+# EBENE 2: ADAM QADMON - Erste Strukturen
 # ============================================================================
 
 @dataclass
-class AdamKadmonBlueprint:
+class AdamQadmonBlueprint:
     """Die Ur-Strukturen, aus denen alle Module entstehen"""
     
     class MassachGenerator:
@@ -96,7 +96,7 @@ class ArichAnpinModule(AzilutModules):
     
     def wait_for_completion(self, process: Callable) -> str:
         """Wie Arich Anpin - wartet bis alles bereit ist"""
-        return "Prozess läuft... Geduld ist Keter!"
+        return "Prozess läuft... Geduld ist Qeter!"
 
 
 class AbbaModule(AzilutModules):
@@ -108,7 +108,7 @@ class AbbaModule(AzilutModules):
     def validate_wwak(self, text: str) -> bool:
         """Abba prüft die Weisheit der Schreibweise"""
         # Implementierung aus wwak_buchstaben_lehre.py
-        return "Q" in text and "Kabbala" in text
+        return "Q" in text and "Qabbala" in text
 
 
 class ImaModule(AzilutModules):
@@ -131,10 +131,10 @@ class ZAModule(AzilutModules):
     """Ze'ir Anpin - Das gebende männliche Prinzip"""
     
     def emanate_light(self) -> str:
-        return "Aktives Geben in 6 Richtungen (Chesed-Gevurah-Tiferet-Nezach-Hod-Jessod)"
+        return "Aktives Geben in 6 Richtungen (Chesed-Gewura-Tiferet-Nezach-Hod-Jessod)"
     
-    def activate_masculine_kli(self, text: str) -> str:
-        """Fügt das männliche Kli hinzu"""
+    def activate_masculine_qli(self, text: str) -> str:
+        """Fügt das männliche Qli hinzu"""
         if "vielleicht" in text:
             text = text.replace("vielleicht", "MUSS")
         if "könnte" in text:
@@ -157,8 +157,8 @@ class NukwaAyalaModule(AzilutModules):
     def see_mangel(self, text: str) -> List[str]:
         """Aylala sieht was fehlt"""
         mangel = []
-        if "Kabbala" not in text:
-            mangel.append("Kabbala fehlt!")
+        if "Qabbala" not in text:
+            mangel.append("Qabbala fehlt!")
         if not any(name in text for name in ["B\"H", "השם", "HaSchem"]):
             mangel.append("Gottesname fehlt!")
         if "כוח עליון" not in text and "Höhere Kraft" not in text:
@@ -186,7 +186,7 @@ class BrijaModules:
             return {
                 "name": name,
                 "neshamah": f"Seele von {name}",
-                "tikkun_purpose": purpose,
+                "tiqqun_purpose": purpose,
                 "current_world": "Brija"
             }
     
@@ -195,8 +195,8 @@ class BrijaModules:
         
         def check_for_separation(self, text: str) -> bool:
             """In Brija beginnt die Trennung - ist sie heilsam?"""
-            # Trennung ist OK wenn sie zum Tikkun führt
-            return "Tikkun" in text or "Heilung" in text
+            # Trennung ist OK wenn sie zum Tiqqun führt
+            return "Tiqqun" in text or "Heilung" in text
 
 
 # ============================================================================
@@ -233,11 +233,11 @@ class AssijaModules:
         """Finale Ausgabe in die physische Welt"""
         
         def __init__(self):
-            self.klipot_filter = True  # Muss Klipot filtern!
+            self.qlipot_filter = True  # Muss Qlipot filtern!
         
         def manifest_in_world(self, content: str) -> str:
             """Bringt spirituellen Content in die Welt"""
-            if self.klipot_filter:
+            if self.qlipot_filter:
                 # Entferne alle negativen Elemente
                 content = content.replace("nicht", "")
                 content = content.replace("mangel", "Geschenk")
@@ -270,8 +270,8 @@ class EzChajimOrchestrator:
         # Ein Sof Ebene
         self.core_principles = EinSofCore()
         
-        # Adam Kadmon Ebene
-        self.blueprint = AdamKadmonBlueprint()
+        # Adam Qadmon Ebene
+        self.blueprint = AdamQadmonBlueprint()
         self.massach_gen = self.blueprint.MassachGenerator()
         self.reshimot = self.blueprint.ReschimotKeeper()
         
@@ -314,7 +314,7 @@ class EzChajimOrchestrator:
         # 3. BRIJA: Prüfe Integrität
         print(f"BRIJA: Prüfe spirituelle Integrität")
         if not self.integrity.check_for_separation(text):
-            text += " - für Tikkun!"
+            text += " - für Tiqqun!"
         
         # 4. AZILUT: Durchlaufe alle Parzufim
         print(f"AZILUT: Durch die 5 Parzufim")
@@ -324,14 +324,14 @@ class EzChajimOrchestrator:
         
         # Abba - Weisheit
         if not self.abba.validate_wwak(text):
-            text = "Kabbala: " + text
+            text = "Qabbala: " + text
         
         # Ima - Verständnis
         understanding = len(text.split())  # Symbolisch
         gate_status = self.ima.which_gate(min(understanding, 49))
         
-        # ZA - Männliches Kli
-        text = self.za.activate_masculine_kli(text)
+        # ZA - Männliches Qli
+        text = self.za.activate_masculine_qli(text)
         
         # Nukwa/Aylala - Sehe und heile
         mangel_list = self.nukwa_aylala.see_mangel(text)
@@ -343,7 +343,7 @@ class EzChajimOrchestrator:
         # 5. EIN SOF: Validierung mit ewigen Prinzipien
         print(f"EIN SOF: Prüfung der ewigen Prinzipien")
         if not self.core_principles.validate_all_actions(text):
-            text += "\n\nQ! - Mit Kawana!"
+            text += "\n\nQ! - Mit Qawana!"
         
         print("\n=== ABSTIEG BEGINNT ===")
         
@@ -393,7 +393,7 @@ async def main():
     # Initialisiere den Orchestrator
     orchestrator = EzChajimOrchestrator()
     
-    # Test-Text (wie aus Petach Tikwa)
+    # Test-Text (wie aus Petach Tiqwa)
     test_text = "Unser modernes Zentrum heißt Besucher willkommen"
     
     print(f"EINGABE: {test_text}\n")
