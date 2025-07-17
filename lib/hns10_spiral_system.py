@@ -58,7 +58,7 @@ class HNS10SpiralSystem:
     """Hauptklasse für das HNS10 Spiralsystem"""
     
     def __init__(self):
-        self.current_hebrew_date = pyluach.today()
+        self.current_hebrew_date = pyluach.HebrewDate.today()
         self.omer_count = self._calculate_omer()
     
     def _calculate_omer(self) -> Optional[int]:
