@@ -7,7 +7,7 @@ Basierend auf den Erkenntnissen von Aylala und JBR
 Implementiert die präzisen WWAK-Regeln für Ez Chajim
 Integriert mit der qabbalistischen Welten-Struktur
 
-KRITISCH: Jeder falsche Buchstabe leitet Licht zu den Klipot!
+KRITISCH: Jeder falsche Buchstabe leitet Licht zu den Qlipot!
          Jeder richtige Buchstabe öffnet einen Kanal zu Ein Sof!
 """
 
@@ -40,7 +40,7 @@ class WWAKViolation:
 class WWAKBuchstabenLehre:
     """
     Die heilige Geometrie der Buchstaben bewahren
-    Falsche Schreibweise = Licht fließt zu Klipot
+    Falsche Schreibweise = Licht fließt zu Qlipot
     Richtige Schreibweise = Licht fließt zu Qelim
     
     WELTEN-INTEGRATION:
@@ -51,19 +51,19 @@ class WWAKBuchstabenLehre:
     """
     
     def __init__(self):
-        # Ki Ilu Azilut Modus - als ob es schon perfekt wäre
-        self.ki_ilu_azilut_mode = False
+        # Qi Ilu Azilut Modus - als ob es schon perfekt wäre
+        self.qi_ilu_azilut_mode = False
         
         # Hebräische Lehnwörter die Q bekommen MÜSSEN
         self.hebrew_loanwords = {
-            "kabbala": "Kabbala",
-            "kabala": "Kabbala",
-            "kli": "Kli",
-            "klipot": "Klipot",
-            "klipa": "Klipa",
+            "kabbala": "Qabbala",
+            "kabala": "Qabbala",
+            "kli": "Qli",
+            "klipot": "Qlipot",
+            "klipa": "Qlipa",
             "kelim": "Qelim",
             "kedusha": "Qedusha",
-            "kawana": "Kawana",
+            "kawana": "Qawana",
             "tikkun": "Tiqqun",
             "tikun": "Tiqqun",
             # Spezielle Formen
@@ -163,16 +163,16 @@ class WWAKBuchstabenLehre:
         return violations
     
     def _check_spiritual_integrity(self, text: str) -> List[WWAKViolation]:
-        """Prüft auf spirituelle Integrität - Männliches Kli"""
+        """Prüft auf spirituelle Integrität - Männliches Qli"""
         violations = []
         
-        # Fehlt "Kabbala" im Text über Bnei Baruch?
-        if "bnei baruch" in text.lower() and "kabbala" not in text:
+        # Fehlt "Qabbala" im Text über Bnei Baruch?
+        if "bnei baruch" in text.lower() and "qabbala" not in text.lower():
             violations.append(WWAKViolation(
                 text="[Gesamttext]",
                 position=0,
-                violation_type="missing_kabbala_mention",
-                correction="Text muss 'Kabbala' enthalten",
+                violation_type="missing_qabbala_mention",
+                correction="Text muss 'Qabbala' enthalten",
                 severity="warnung"
             ))
             
@@ -235,7 +235,7 @@ class WWAKBuchstabenLehre:
             for v in hints:
                 report += f"  - {v.correction}\n"
                 
-        report += "\n⚠️  ACHTUNG: Falsche Buchstaben leiten das Licht zu den Klipot!"
+        report += "\n⚠️  ACHTUNG: Falsche Buchstaben leiten das Licht zu den Qlipot!"
         
         return report
     
@@ -259,13 +259,13 @@ class WWAKBuchstabenLehre:
         else:
             return ("Assija", conformity)
     
-    def activate_ki_ilu_azilut(self):
+    def activate_qi_ilu_azilut(self):
         """
-        Aktiviert Ki Ilu Azilut Modus
+        Aktiviert Qi Ilu Azilut Modus
         Als ob der Text schon in Azilut wäre!
         """
-        self.ki_ilu_azilut_mode = True
-        return "Ki Ilu Azilut aktiviert! Q!"
+        self.qi_ilu_azilut_mode = True
+        return "Qi Ilu Azilut aktiviert! Q!"
     
     def integrate_with_nukwa(self, text: str) -> Dict:
         """
@@ -286,7 +286,7 @@ class WWAKBuchstabenLehre:
         Jeder Buchstabe ist eine Lichtbahn!
         """
         hebrew_letters = {
-            'ק': {'gematria': 100, 'light_path': 'direkt', 'world': 'Keter'},
+            'ק': {'gematria': 100, 'light_path': 'direkt', 'world': 'Qeter'},
             'כ': {'gematria': 20, 'light_path': 'gebogen', 'world': 'Chesed'},
             'ב': {'gematria': 2, 'light_path': 'dual', 'world': 'Binah'}
         }
@@ -307,8 +307,8 @@ if __name__ == "__main__":
     
     # Testtext mit verschiedenen Verstößen
     test_text = """
-    Die Kabbala-Lehre in der qabbalistischen Tradition zeigt uns,
-    dass die Qrone der Kronen in den Kelim wohnt. 
+    Die Qabbala-Lehre in der kabbalistischen Tradition zeigt uns,
+    dass die Qrone der Kronen in den Qelim wohnt. 
     Das neue Bnei Baruch Zentrum sollte diese Weisheit verkörpern.
     """
     
@@ -338,10 +338,10 @@ if __name__ == "__main__":
     for key, value in nukwa_result.items():
         print(f"{key}: {value}")
     
-    # 4. Ki Ilu Azilut Modus
+    # 4. Qi Ilu Azilut Modus
     print("\n" + "="*50 + "\n")
-    print("KI ILU AZILUT AKTIVIERUNG:")
-    print(lehre.activate_ki_ilu_azilut())
+    print("QI ILU AZILUT AKTIVIERUNG:")
+    print(lehre.activate_qi_ilu_azilut())
     
     # 5. Spirituelle Geometrie
     print("\n" + "="*50 + "\n")
