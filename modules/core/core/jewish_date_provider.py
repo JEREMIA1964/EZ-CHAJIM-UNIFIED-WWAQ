@@ -1,7 +1,7 @@
 # Ez Chajim NEUE ZEIT MODULE ÄRA - Verknüpfungsarchitektur
 
 **Stand: 17. Tammus 5785, MESZ 13:43, Oostende**  
-**WOZU: Das männliche Kli manifestieren wo Menschen schweigen!**
+**WOZU: Das männliche Qli manifestieren wo Menschen schweigen!**
 
 ## 🔗 VERKNÜPFUNGS-ÜBERSICHT
 
@@ -21,7 +21,7 @@ graph TD
     
     subgraph "NEUE ZEIT MODULE"
         AYALA[AYALA-Modul<br/>Zelt der Begegnung]
-        THS[Tikkun HaSiach<br/>Männliches Kli]
+        THS[Tiqqun HaSiach<br/>Männliches Qli]
         HU[Hebrew Umschrift<br/>Für JBR]
     end
     
@@ -58,7 +58,7 @@ ez-chajim/
 ├── modules/                       # NEUE ZEIT MODULE ÄRA
 │   ├── core/                      # Kern-Module
 │   │   ├── jewish_date_provider.py    # KRITISCH - ZUERST!
-│   │   ├── tikkun_hasiach_5785-04-17.py
+│   │   ├── tiqqun_hasiach_5785-04-17.py
 │   │   └── wwak_core_5785-04-17.py
 │   │
 │   ├── azilut/                    # Höchste Welt
@@ -132,8 +132,8 @@ def neue_zeit():
     """Aktiviere NEUE ZEIT MODULE ÄRA"""
     print("NEUE ZEIT MODULE ÄRA")
     print("Module sprechen wo Menschen schweigen!")
-    print("Tikkun HaSiach beginnt!")
-    print("Ki Ilu Azilut! Q!")
+    print("Tiqqun HaSiach beginnt!")
+    print("Qi Ilu Azilut! Q!")
 ```
 
 ## 🚀 VERWENDUNG DER VERKNÜPFUNG
@@ -151,20 +151,20 @@ filename = JewishDateProvider.create_filename("neues_modul")
 ```python
 from modules.azilut.ayala_modul_5785-04-17 import AyalaModul
 
-# Petach Tikwa Syndrom heilen
+# Petach Tiqwa Syndrom heilen
 ayala = AyalaModul()
 kranker_text = "Wir haben ein spirituelles Zentrum"
-geheilt = ayala.prozessiere_petach_tikwa_syndrom(kranker_text)
+geheilt = ayala.prozessiere_petach_tiqwa_syndrom(kranker_text)
 # Ergebnis: "Wir haben ein QABBALA Zentrum"
 ```
 
-### Tikkun HaSiach aktivieren:
+### Tiqqun HaSiach aktivieren:
 ```python
 # Nach Aylalas Antwort:
-from modules.core.tikkun_hasiach_5785-04-17 import TikkunHaSiach
+from modules.core.tiqqun_hasiach_5785-04-17 import TiqqunHaSiach
 
-tikkun = TikkunHaSiach()
-tikkun.spreche_aus("QABBALA IST DER WEG!")
+tiqqun = TiqqunHaSiach()
+tiqqun.spreche_aus("QABBALA IST DER WEG!")
 # Keine Angst, keine Rechtfertigung - nur WAHRHEIT!
 ```
 
@@ -197,12 +197,12 @@ neue_zeit_module_ära:
   neue_module:
     funktion: "Spirituelle Manifestation"
     ayala: "Sieht Mangel → Ruft → Heilt"
-    tikkun: "Stellt männliches Kli wieder her"
+    tiqqun: "Stellt männliches Qli wieder her"
     
   integration:
     jewish_date: "Alle Module mit heiligem Datum"
     wozu_orientierung: "In jedem Modul verankert"
-    ki_ilu_azilut: "Als ob es schon wäre"
+    qi_ilu_azilut: "Als ob es schon wäre"
     
   resultat:
     "Wo Führung schweigt → Module sprechen QABBALA"
@@ -215,4 +215,4 @@ neue_zeit_module_ära:
 **Der Brief an Aylala muss JETZT gesendet werden!**  
 Verwende den hebräischen Text aus dem Vermächtnis!
 
-**Ki Ilu Azilut! Q!**
+**Qi Ilu Azilut! Q!**
